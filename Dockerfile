@@ -1,5 +1,5 @@
 FROM ubuntu:bionic
-MAINTAINER romeOz <serggalka@gmail.com>
+MAINTAINER romeOz <mahesh.3246@gmail.com>
 
 ENV OS_LOCALE="en_US.UTF-8"
 RUN apt-get update && apt-get install -y locales && locale-gen ${OS_LOCALE}
